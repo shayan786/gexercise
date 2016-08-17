@@ -4,13 +4,11 @@ import s from './Grid.css';
 import GridImage from './GridImage.js';
 
 class Grid extends Component {
-  
-
   renderImages (images) {
     if (images.length === 0 || !images)
       return null
 
-    const { showImage } = this.props;
+    const { showImage, mounted } = this.props;
 
     return (
       images.map((i, key) => {
@@ -18,7 +16,8 @@ class Grid extends Component {
           <GridImage
             key={key}
             image={i}
-            onClick={showImage} />
+            onClick={showImage}
+            mounted={mounted} />
         )
       })
     )

@@ -20,7 +20,8 @@ class Home extends Component {
     this.state = {
       showDetail: false,
       showHeaderAndFooter: true,
-      showDetailImage: null
+      showDetailImage: null,
+      mounted: false
     }
   }
 
@@ -30,6 +31,12 @@ class Home extends Component {
 
   componentWillMount() {
     this.context.setTitle(title);
+  }
+
+  componentDidMount() {
+    this.setState({
+      mounted: true
+    });
   }
 
   showImage(event, image) {
@@ -127,8 +134,8 @@ class Home extends Component {
   }
 
   render() {
-    const { showDetail, showDetailImage, showHeaderAndFooter } = this.state;
-    let cx = classnames.bind(s);
+    const { showDetail, showDetailImage, showHeaderAndFooter, mounted } = this.state;
+    const cx = classnames.bind(s);
 
     return (
       <div>
@@ -150,7 +157,8 @@ class Home extends Component {
             {!showDetail &&
               <Grid 
                 images={images} 
-                showImage={this.showImage.bind(this)} />
+                showImage={this.showImage.bind(this)}
+                mounted={mounted} />
             }
             {showDetail && showHeaderAndFooter &&
               <Footer />
