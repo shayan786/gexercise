@@ -3571,7 +3571,7 @@ module.exports =
           className: _Exp2.default.li
         }, void 0, ' A quick study of existing well built photo galleries which included google photos, flikr, facebook, dropbox, & shutterstock. '), (0, _jsx3.default)('li', {
           className: _Exp2.default.li
-        }, void 0, ' Majority simply utilize animation through cheap browser resources: opacity (fading) or tranlsation (movement) for performance reasons but also intuitive clean experience. '), (0, _jsx3.default)('li', {
+        }, void 0, ' Majority simply utilize animation through cheap browser resources: opacity (fading) or translation (movement) for performance reasons but also intuitive clean experience. '), (0, _jsx3.default)('li', {
           className: _Exp2.default.li
         }, void 0, ' The most concerning animation to me was the relationship between selecting or clicking a image from the grid view and conveying to the user that what you clicked is what the detail view will show. ')), _ref4, (0, _jsx3.default)('ul', {}, void 0, (0, _jsx3.default)('li', {
           className: _Exp2.default.li

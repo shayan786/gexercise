@@ -28,7 +28,7 @@ class Exp extends Component {
           <h3> Design Choices & Process </h3>
           <ul>
             <li className={s.li}> A quick study of existing well built photo galleries which included google photos, flikr, facebook, dropbox, & shutterstock. </li>
-            <li className={s.li}> Majority simply utilize animation through cheap browser resources: opacity (fading) or tranlsation (movement) for performance reasons but also intuitive clean experience. </li>
+            <li className={s.li}> Majority simply utilize animation through cheap browser resources: opacity (fading) or translation (movement) for performance reasons but also intuitive clean experience. </li>
             <li className={s.li}> The most concerning animation to me was the relationship between selecting or clicking a image from the grid view and conveying to the user that what you clicked is what the detail view will show. </li>
           </ul>
           <h3> What I Used </h3>
