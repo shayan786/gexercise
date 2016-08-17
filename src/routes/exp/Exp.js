@@ -25,7 +25,6 @@ class Exp extends Component {
             <li className={s.li}> Swipe Left/Right in Detail View </li>
             <li className={s.li}> X To exit Detail View </li>
           </ul>
-          <h3> What I Used </h3>
           <h3> Design Choices & Process </h3>
           <ul>
             <li className={s.li}> A quick study of existing well built photo galleries which included google photos, flikr, facebook, dropbox, & shutterstock. </li>

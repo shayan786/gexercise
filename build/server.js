@@ -3526,22 +3526,20 @@ module.exports =
   
   var _ref2 = (0, _jsx3.default)('h3', {}, void 0, ' Actions Available ');
   
-  var _ref3 = (0, _jsx3.default)('h3', {}, void 0, ' What I Used ');
+  var _ref3 = (0, _jsx3.default)('h3', {}, void 0, ' Design Choices & Process ');
   
-  var _ref4 = (0, _jsx3.default)('h3', {}, void 0, ' Design Choices & Process ');
+  var _ref4 = (0, _jsx3.default)('h3', {}, void 0, ' What I Used ');
   
-  var _ref5 = (0, _jsx3.default)('h3', {}, void 0, ' What I Used ');
-  
-  var _ref6 = (0, _jsx3.default)('a', {
+  var _ref5 = (0, _jsx3.default)('a', {
     href: 'http://yeoman.io/',
     target: '_blank'
   }, void 0, 'yeoman');
   
-  var _ref7 = (0, _jsx3.default)('h3', {}, void 0, ' Get it Running (Dev) ');
+  var _ref6 = (0, _jsx3.default)('h3', {}, void 0, ' Get it Running (Dev) ');
   
-  var _ref8 = (0, _jsx3.default)('br', {});
+  var _ref7 = (0, _jsx3.default)('br', {});
   
-  var _ref9 = (0, _jsx3.default)('h3', {}, void 0, ' Hope ya\'ll think is passable, thanks for taking the time!! ');
+  var _ref8 = (0, _jsx3.default)('h3', {}, void 0, ' Hope ya\'ll think is passable, thanks for taking the time!! ');
   
   var Exp = function (_Component) {
     (0, _inherits3.default)(Exp, _Component);
@@ -3571,15 +3569,15 @@ module.exports =
           className: _Exp2.default.li
         }, void 0, ' Swipe Left/Right in Detail View '), (0, _jsx3.default)('li', {
           className: _Exp2.default.li
-        }, void 0, ' X To exit Detail View ')), _ref3, _ref4, (0, _jsx3.default)('ul', {}, void 0, (0, _jsx3.default)('li', {
+        }, void 0, ' X To exit Detail View ')), _ref3, (0, _jsx3.default)('ul', {}, void 0, (0, _jsx3.default)('li', {
           className: _Exp2.default.li
         }, void 0, ' A quick study of existing well built photo galleries which included google photos, flikr, facebook, dropbox, & shutterstock. '), (0, _jsx3.default)('li', {
           className: _Exp2.default.li
         }, void 0, ' Majority simply utilize animation through cheap browser resources: opacity (fading) or tranlsation (movement) for performance reasons but also intuitive clean experience. '), (0, _jsx3.default)('li', {
           className: _Exp2.default.li
-        }, void 0, ' The most concerning animation to me was the relationship between selecting or clicking a image from the grid view and conveying to the user that what you clicked is what the detail view will show. ')), _ref5, (0, _jsx3.default)('ul', {}, void 0, (0, _jsx3.default)('li', {
+        }, void 0, ' The most concerning animation to me was the relationship between selecting or clicking a image from the grid view and conveying to the user that what you clicked is what the detail view will show. ')), _ref4, (0, _jsx3.default)('ul', {}, void 0, (0, _jsx3.default)('li', {
           className: _Exp2.default.li
-        }, void 0, ' I like to start off most projects with ', _ref6, ' generator.'), (0, _jsx3.default)('li', {
+        }, void 0, ' I like to start off most projects with ', _ref5, ' generator.'), (0, _jsx3.default)('li', {
           className: _Exp2.default.li
         }, void 0, ' Node.js '), (0, _jsx3.default)('li', {
           className: _Exp2.default.li
@@ -3593,7 +3591,7 @@ module.exports =
           className: _Exp2.default.li
         }, void 0, ' CSS Modules '), (0, _jsx3.default)('li', {
           className: _Exp2.default.li
-        }, void 0, ' BrowserSync (dev.) ')), _ref7, (0, _jsx3.default)('ul', {}, void 0, (0, _jsx3.default)('li', {
+        }, void 0, ' BrowserSync (dev.) ')), _ref6, (0, _jsx3.default)('ul', {}, void 0, (0, _jsx3.default)('li', {
           className: _Exp2.default.li
         }, void 0, ' Must use node v5+, npm v3.3+'), (0, _jsx3.default)('li', {
           className: _Exp2.default.li
@@ -3603,7 +3601,7 @@ module.exports =
           className: _Exp2.default.li
         }, void 0, ' localhost:3001 '), (0, _jsx3.default)('li', {
           className: _Exp2.default.li
-        }, void 0, ' npm run build (only for production build) ')), _ref8, _ref9));
+        }, void 0, ' npm run build (only for production build) ')), _ref7, _ref8));
       }
     }]);
     return Exp;
