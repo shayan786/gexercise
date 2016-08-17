@@ -41,7 +41,6 @@ class Home extends Component {
 
     if (!imageContainerEl.classList.toString().includes(s.enlargeContainer))
       imageContainerEl.classList.add(s.enlargeContainer);
-
     
     setTimeout(() => {
       this.setState({
@@ -136,7 +135,7 @@ class Home extends Component {
         { showHeaderAndFooter &&
           <Header
             title={showDetail ? showDetailImage.title : "Image Gallery"}
-            isDismissable={showDetail} 
+            isDismissable={showDetail && showHeaderAndFooter} 
             handleDismiss={this.handleDismiss.bind(this)} />
         }
         <section className={cx({root: true, blackBg: showDetail})}>

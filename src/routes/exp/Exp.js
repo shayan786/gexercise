@@ -18,6 +18,14 @@ class Exp extends Component {
       <div className={s.root}>
         <div className={s.container}>
           <h2> Google Exercise </h2>
+          <h3> Actions Available </h3>
+          <ul>
+            <li className={s.li}> Click Image Icon </li>
+            <li className={s.li}> Click Image in Detail View to Hide Header / Footer </li>
+            <li className={s.li}> Swipe Left/Right in Detail View </li>
+            <li className={s.li}> X To exit Detail View </li>
+          </ul>
+          <h3> What I Used </h3>
           <h3> Design Choices & Process </h3>
           <ul>
             <li className={s.li}> A quick study of existing well built photo galleries which included google photos, flikr, facebook, dropbox, & shutterstock. </li>
